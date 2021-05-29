@@ -14,9 +14,9 @@
     "static/media/blog-construction.ef0f61d7.png": "./static/media/blog-construction.ef0f61d7.png"
   },
   "entrypoints": [
-    "./static/js/runtime-main.a6e88073.js",
-    "./static/js/2.2a70f6a7.chunk.js",
-    "./static/css/main.f12b08b8.chunk.css",
-    "./static/js/main.44104058.chunk.js"
+    "/static/js/runtime-main.a6e88073.js",
+    "/static/js/2.2a70f6a7.chunk.js",
+    "/static/css/main.f12b08b8.chunk.css",
+    "/static/js/main.44104058.chunk.js"
   ]
 }
