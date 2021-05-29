@@ -30,7 +30,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://youilab.github.io/webpage-2021/",
+ 
   "browserslist": {
     "production": [
       ">0.2%",
