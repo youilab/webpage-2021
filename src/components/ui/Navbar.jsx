@@ -75,7 +75,7 @@ import {
       <nav className="top-bar">
         <div className="left">
         <Link to="/">
-          <img src="/Assets/img/logos/logo-navbar.png" alt="Logo You-i Lab"/>
+          <img src="./Assets/img/logos/logo-navbar.png" alt="Logo You-i Lab"/>
         </Link>
         </div>
         <div className="right">
