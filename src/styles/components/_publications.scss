@@ -1,0 +1,60 @@
+.publications__container{
+    margin-top: 50px;
+    color: $primary;
+    padding: 0 8vw;
+
+    .publications__title{
+        padding-top: 50px;
+    }
+
+    .publications__cards-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+
+        .publications__card {
+            width: 25%;
+            height: 400px;
+            padding: 0 20px;
+            margin: 30px 0;
+            box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);        
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: center;  
+            
+
+            h3{
+                margin-top: 2em;
+                color: $azul;
+                font-size: 1em;
+            }
+            p{
+                font-size: .8em;
+            }
+
+            .btn{
+                position: absolute;
+                bottom: 0;
+            }
+        }
+    }
+}
+@media (max-width: 800px) {  
+    .publications__container {
+        .publications__cards-container {
+            .publications__card {
+                 width: 100%; 
+                height: auto;
+
+                .btn{
+                    position: unset;
+                }
+            }
+        }
+    }
+}

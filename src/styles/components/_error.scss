@@ -1,0 +1,14 @@
+.error__container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h3{
+        color: $gris;
+    }
+    img{
+        width: 25%;
+        margin: 0 auto;
+    }
+}

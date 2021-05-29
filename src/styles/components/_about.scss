@@ -1,0 +1,213 @@
+.about__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+
+
+    .background {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        background-color: #01010166;
+        left: 0;
+        right: 0;
+    }
+}
+
+.about__landing-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+
+    .about__landing-bg-image{
+        position: absolute;
+        background: url("../../assets/ui/about.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+    }
+
+    .about__landing-textContainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        padding: 0 8vw;
+        color: $gris;
+        margin: 30px 0;
+    }
+    
+    .about__landing-waves{
+        position: absolute;
+        background: url("../../assets/ui/bg-desk-team-white.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        bottom: 0;
+        top: 88%;
+        z-index: -1;
+     }  
+}
+
+.about__section-1-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        margin-top: 30px;
+        .about__section1-item{
+            padding: 0 11vw;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            margin-bottom: 20px;
+            color: $primary;
+
+            img{
+                width: 35%;
+            }
+
+            h3{
+                margin:0 ;
+            }
+        }
+}
+
+.about__section2-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 8vw;
+
+    h2{
+        color: $amarillo;
+        font-size: 2em;
+    }
+
+    .about__section2-team{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+        .about__section2-card{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+
+            .about__section2-photo{
+                width: 90px;
+                height: 90px;
+                background:rgb(252, 252, 252);
+                border-radius:100%;
+                overflow: hidden;
+                margin: 0 auto; 
+                position: relative;
+
+                &:before{
+                    position:absolute;
+                    content:'';
+                    top: 10px;
+                    bottom: 10px;
+                    left:10px;
+                    right: 10px;
+                    border:3px solid #ffffff;
+                     border-right: 1px solid transparent;
+                     border-radius:100%;
+                    
+                  }
+                img{
+                    width: 100%;
+                    border-radius:100%;
+
+                }
+            }
+            .about__section2-info{
+                margin: 10px 0;
+                h5{
+                    margin: 0;
+                    color: $gris;
+                }
+            }
+
+            .btn{
+                padding: 5px 5px;
+                font-size: 0.7em;
+            }
+
+        }
+    }
+
+}
+
+
+.about__section3-container{
+    margin-bottom: -4px;
+    height: 40vw;
+    .about__section2-thanksBg{
+        position: relative;
+        background-position: center;
+        background-repeat: repeat;
+        background-size: 40%;
+        width: 100%;
+        height: inherit;
+        z-index: -1;
+        text-align: center;
+        color: white;
+        img{
+            width: 100%;
+        }
+    .about__section2-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: white;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    }
+}
+
+@media (min-width: 800px) {  
+    .about__landing-container {
+        height: 100vh;
+    }
+    .about__landing-container .about__landing-waves {
+        background-size: 100% 100%;
+        top: 81%;
+    }
+    .about__section-1-container {
+        flex-direction: row;
+    }
+    .about__section-1-container {
+        .about__section1-item {
+            flex: 1;
+            img {
+            width: auto;
+            }
+        }
+
+    }
+    .about__section2-container .about__section2-team .about__section2-card {
+        width: 25%;
+
+        .about__section2-photo {
+            width: 15vw;
+            height: 15vw;
+        }
+    }
+
+}
+

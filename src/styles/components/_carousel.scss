@@ -1,0 +1,30 @@
+.carousel-container {
+    width: 100%;
+    overflow: scroll;
+
+
+    &::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    &::-webkit-scrollbar:vertical {
+        width:10px;
+    }
+    &::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+        display: none;
+    } 
+    &::-webkit-scrollbar:horizontal {
+        height: 10px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: $primary;
+        border-radius: 20px;
+        border: 2px solid #f1f2f3;
+    }
+    &::-webkit-scrollbar-track {
+        border-radius: 10px;  
+    }
+    .carousel-slide{
+        display: flex;
+        width: 100%;
+    }
+}

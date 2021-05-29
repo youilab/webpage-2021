@@ -1,0 +1,215 @@
+.home__container{
+    width: 100%;
+    /*max-width: 1500px;*/
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.home__landing-container{
+    color: #fff;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    .home__landing-bg-image {
+        background: url("../../assets/ui/main.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: inherit;
+        opacity: 0.8;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+      }
+
+    .home__landing-text{
+        padding: 0 8vw;
+        max-height: 100%;
+        text-align: center;
+    }
+
+    .home__landing-waves{
+        background: url("../../assets/ui/bg-desk-home-white.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 50px;
+        bottom: 0;
+        z-index: -1;
+    }
+    .home__landing-textContainer{
+        padding: 30px 0;
+
+        h1 {
+            color: $gris;   
+        }
+
+        p{
+            font-size: 1.3rem;
+            color:  $gris;  
+        }
+    }
+
+}
+    .home__section1-container{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: -1px;
+        background-color: white;
+        
+        .home__section1-text{
+            padding: 1vw 8vw 3vw 8vw;
+            margin-top: -0px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+
+
+            h2{
+                color:  $primary;
+                padding-bottom: 0;
+                margin-bottom: 0;
+
+            }
+    
+            p{
+                font-size: 1rem;
+                color: $primary;
+            }
+        }
+
+    }
+
+    .home__section2-container{
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        position: relative;
+        
+        .home__section2-bg-image{
+            display: block;
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: url("../../assets/ui/bg-mobile-home.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            z-index: -1;
+            img{
+                width: 100%;
+                height: 100%;
+                
+            }
+        }
+        .home__section2-textContainer{
+
+           h2{
+                color: $gris;  
+
+            &:nth-child(1){
+                margin-top: 50px;
+            }
+           }
+
+            p{
+
+                &:nth-child(1){
+                    margin-bottom: 50px;
+                }
+                color: $gris;  
+                padding: 0px 8vw;
+                font-family: 'Roboto', sans-serif;;
+            }
+        }
+
+        .home__section2-itemContainer{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            h3{
+                color: $primary;
+                font-size: 1em;
+            }
+            .home__section2-item{
+
+                width: 50%;
+
+                 img{
+                     width: 50%;
+                   }
+            }
+        }
+    }
+
+
+    .home__section3-container{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+
+        h2{
+            color: $primary;
+            font-family: Quicksand;
+            overflow: hidden;
+            padding: 0 8vw;
+        }
+
+        p{
+            color: $primary;
+            padding: 0 8vw;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        
+        .btn{
+            background: $primary;
+            color: white;
+            margin: 0;
+          }
+  
+    }
+
+
+    @media (min-width: 800px) {  
+        .home__landing-container .home__landing-textContainer{
+            padding: 100px 8vw 100px 40%;
+        }
+
+        .home__section2-container {
+            .home__section2-itemContainer {
+                .home__section2-item {
+                     width: auto;
+                }
+            }
+        }
+
+       
+        
+    }
+
+
