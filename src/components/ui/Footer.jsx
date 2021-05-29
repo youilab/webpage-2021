@@ -49,8 +49,8 @@ export const Footer = () => {
             </div>
             <div className="social-footer">
                 <div className="social-footer-icon">
-                    <a href="https://www.facebook.com/You-i-Lab-113474653396663/"><img className=" float-right" src="./Assets/img/icons/footer-fb.png" alt="facebook" /></a> 
-                    <a href="https://twitter.com/youi_lab"><img src="./Assets/img/icons/footer-twitter.png" alt="twitter" /></a> 
+                    <a href="https://www.facebook.com/You-i-Lab-113474653396663/"><img className=" float-right" src="/Assets/img/icons/footer-fb.png" alt="facebook" /></a> 
+                    <a href="https://twitter.com/youi_lab"><img src="/Assets/img/icons/footer-twitter.png" alt="twitter" /></a> 
                 </div>
                 <p className="Copyright">© 2018-2020 Copyright: Youth Innovation Laboratory</p>  
             </div>

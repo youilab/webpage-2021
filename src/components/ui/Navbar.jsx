@@ -75,7 +75,7 @@ import {
       <nav className="top-bar">
         <div className="left">
         <Link to="/">
-          <img src="../Assets/img/logos/logo-navbar.png" alt="Logo You-i Lab"/>
+          <img src="/Assets/img/logos/logo-navbar.png" alt="Logo You-i Lab"/>
         </Link>
         </div>
         <div className="right">
@@ -108,8 +108,8 @@ import {
             </div>
           </div>
         </div>
-        <a href="https://www.ipicyt.edu.mx/"><img className="logos" id="ipicyt" src="./Assets/img/logos/logo-ipicyt.png" alt="ipicyt" /></a>
-        <a href="https://www.ipicyt.edu.mx/Cns/cns.php"><img className="logos" id="cns" src="./Assets/img/logos/logo-cns.png" alt="cns" /></a>
+        <a href="https://www.ipicyt.edu.mx/"><img className="logos" id="ipicyt" src="/Assets/img/logos/logo-ipicyt.png" alt="ipicyt" /></a>
+        <a href="https://www.ipicyt.edu.mx/Cns/cns.php"><img className="logos" id="cns" src="/Assets/img/logos/logo-cns.png" alt="cns" /></a>
             
       </nav>
     </header>
