@@ -44,7 +44,7 @@ export const Projects = () => {
             autoComplete="off"
           />
           <button onClick={handleSearch} type="submit">
-            <i className="fa fa-search">{">"}</i>
+            <i className="fa fa-search"></i>
           </button>
         </form>
         {search && (

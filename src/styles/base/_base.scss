@@ -87,3 +87,19 @@ p{
 .btn:hover{
   opacity: .8;
 }
+
+.modal__back{
+  color: $primary;
+  text-align: start;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  a{
+      text-decoration: 0;
+      font-weight: bold;
+  }
+
+}

@@ -42,7 +42,7 @@ export const About = () => {
       </main>
       <section className="about__section-1-container">
         <div className="about__section1-item">
-          <img src="./Assets/img/icons/img-mision.png" alt="" />
+          <img src="./Assets/img/icons/mision.png" alt="" />
           <h3>MISSION</h3>
           <p>
             To serve as a platform for empowering youth innovators in social
@@ -50,7 +50,7 @@ export const About = () => {
           </p>
         </div>
         <div className="about__section1-item" onClick={handleClose}>
-          <img src="Assets/img/icons/img-vision.png" alt="" />
+          <img src="Assets/img/icons/vision.png" alt="" />
           <h3>VISION</h3>
           <p>
             To have top talented and creative people interested in managing and

@@ -39,7 +39,11 @@ export const ProjectScreen = ({ history }) => {
 
   return (
     <div className="project__container">
-       <Link className="modal__back" to="/projects">BACK</Link>
+      
+       <div className="modal__back">
+        <span className="fa fa-arrow-left" />
+        <Link  to="/projects">BACK</Link>
+      </div>
       <h1 className="nav-shift">{p.title}</h1>
       <div className="project__info-container">
         {contentProject.map((content, i) =>

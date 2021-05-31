@@ -9,6 +9,7 @@ export const Modal = ({ profile, modal }) => {
   return (
     <div className="modal__container">
       <div className="modal__back">
+        <span className="fa fa-arrow-left" />
         <p onClick={()=>modal(false)}>BACK</p>
       </div>
     <div className="modal__name-container">
